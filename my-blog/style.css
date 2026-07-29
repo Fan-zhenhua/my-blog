@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #222;
+  background: #f5f7fa;
+  line-height: 1.6;
+}
+
+.site-header {
+  padding: 48px 20px;
+  text-align: center;
+  color: white;
+  background: #1f6feb;
+}
+
+.site-header h1 {
+  margin: 0 0 12px;
+  font-size: 36px;
+}
+
+.site-header p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 32px auto;
+}
+
+.post {
+  padding: 24px;
+  margin-bottom: 20px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.date {
+  color: #667085;
+  font-size: 14px;
+}
+
+.post a {
+  color: #1f6feb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  padding: 24px;
+  text-align: center;
+  color: #667085;
+}
